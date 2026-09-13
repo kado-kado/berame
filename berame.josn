@@ -1,10 +1,10 @@
 {
     "kind": "character",
     "data": {
-        "name": "靴べらメイカー (くつべらめいかー)",
-        "initiative": 11,
-        "externalUrl": "https://kado-kado.notion.site/33e49c84664580308a64cc31ab808692",
-        "iconUrl": "https://storage.ccfolia-cdn.net/users/YHgr7NEh9RShEFDAUQevENAIGX92/files/ff7d6e33e67e526b6ea0d96c473191e057af351843f389839f7dcfde363024ec",
+        "name": "べらめ",
+        "initiative": 15,
+        "externalUrl": "https://berame.pages.dev/public",
+        "iconUrl": "https://storage.ccfolia-cdn.net/users/YHgr7NEh9RShEFDAUQevENAIGX92/files/f022fbc27cb4c59bf231aba4f3aa98ad4dc081105b9af35c6321146732485b8b",
         "faces": [
             {
                 "iconUrl": "https://storage.ccfolia-cdn.net/users/YHgr7NEh9RShEFDAUQevENAIGX92/files/ff7d6e33e67e526b6ea0d96c473191e057af351843f389839f7dcfde363024ec",
@@ -38,43 +38,43 @@
             },
             {
                 "label": "SAN",
-                "value": 61,
-                "max": 61
-            },
-            {
-                "label": "APT",
-                "value": 10,
+                "value": 94,
                 "max": 99
             },
             {
+                "label": "APT",
+                "value": 1802,
+                "max": 99999
+            },
+            {
                 "label": "靴べら",
-                "value": 442,
+                "value": 417,
                 "max": 545
             },
             {
                 "label": "回避",
-                "value": 0,
-                "max": 10
+                "value": 10,
+                "max": 100
             },
             {
                 "label": "回復",
-                "value": 0,
-                "max": 10
+                "value": 11,
+                "max": 100
             },
             {
                 "label": "目星",
-                "value": 0,
-                "max": 10
+                "value": 6,
+                "max": 100
             },
             {
                 "label": "マーシャルアーツ",
-                "value": 2,
-                "max": 10
+                "value": 14,
+                "max": 100
             },
             {
                 "label": "追跡",
-                "value": 0,
-                "max": 10
+                "value": 10,
+                "max": 100
             }
         ],
         "params": [
@@ -94,13 +94,25 @@
                 "label": "DEX",
                 "value": 11
             },
+						{
+                "label": "DEX_h",
+                "value": 15
+            },
             {
                 "label": "APP",
                 "value": 9
             },
+						{
+                "label": "APP_h",
+                "value": 19
+            },
             {
                 "label": "SIZ",
                 "value": 15
+            },
+						{
+                "label": "SIZ_h",
+                "value": 11
             },
             {
                 "label": "INT",
@@ -109,10 +121,6 @@
             {
                 "label": "EDU",
                 "value": 20
-            },
-            {
-                "label": "URL",
-                "value": "https://kado-kado.notion.site/33e49c84664580308a64cc31ab808692"
             }
         ]
     }
