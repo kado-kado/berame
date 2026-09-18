@@ -325,6 +325,8 @@ th {
 
 table {
     width: 100%;
+    max-width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
     margin: 1rem 0;
     text-align: left;
@@ -334,9 +336,11 @@ th,
 td {
     border: 1px solid var(--input-border);
     padding: 8px 10px;
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 th {
     background-color: var(--input-bg);
-    white-space: nowrap;
+    white-space: normal;
 }
