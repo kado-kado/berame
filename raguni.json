@@ -1,0 +1,56 @@
+{
+    "kind":"character",
+    "data":{
+        "name":"ラグニ",
+        "initiative":28,
+        "externalUrl":"",
+        "iconUrl":"https://storage.ccfolia-cdn.net/users/YHgr7NEh9RShEFDAUQevENAIGX92/files/320c87604471935c5f10a9e02d9600efbb02eb91a925fc6603b926bd32dd94b2",
+        "secret": true,
+        "commands":"1d100<={SAN} 【正気度ロール】\nCCB<=105 【アイデア】\nCCB<=350 【幸運】\nCCB<=105 【知識】\nCCB<=87 【目星】\nCCB<=84 【聞き耳】\nCCB<=80 【図書館】\nCCB<=95 【回避】\nCCB<=50 【こぶし（パンチ）】\nCCB<=25 【キック】\nCCB<=25 【組み付き】\nCCB<=10 【頭突き】\nCCB<=25 【投擲】\nCCB<=1 【マーシャルアーツ】\nCCB<=20 【拳銃】\nCCB<=15 【サブマシンガン】\nCCB<=30 【ショットガン】\nCCB<=95 【マシンガン】\nCCB<=25 【ライフル】\nCCB<=100 【触肢】\nCCB<=75 【踏みつけ】\nCCB<=100 【噛みつき】\nCCB<=95 【応急手当】\nCCB<=20 【鍵開け】\nCCB<=15 【隠す】\nCCB<=50 【隠れる】\nCCB<=10 【忍び歩き】\nCCB<=10 【写真術】\nCCB<=95 【精神分析】\nCCB<=10 【追跡】\nCCB<=40 【登攀】\nCCB<=20 【運転】\nCCB<=20 【機械修理】\nCCB<=1 【重機械操作】\nCCB<=5 【乗馬】\nCCB<=25 【水泳】\nCCB<=95 【製作（アーティファクト）】\nCCB<=1 【操縦】\nCCB<=25 【跳躍】\nCCB<=10 【電気修理】\nCCB<=10 【ナビゲート】\nCCB<=1 【変装】\nCCB<=5 【言いくるめ】\nCCB<=70 【信用】\nCCB<=15 【説得】\nCCB<=5 【値切り】\nCCB<=105 【母国語（ラテン語）】\nCCB<=105 【第二言語(日本語)】\nCCB<=5 【医学】\nCCB<=5 【オカルト】\nCCB<=1 【化学】\nCCB<=100 【クトゥルフ神話】\nCCB<=5 【芸術】\nCCB<=10 【経理】\nCCB<=1 【考古学】\nCCB<=1 【コンピューター】\nCCB<=5 【心理学】\nCCB<=1 【人類学】\nCCB<=1 【生物学】\nCCB<=1 【地質学】\nCCB<=1 【電子工学】\nCCB<=1 【天文学】\nCCB<=10 【博物学】\nCCB<=1 【物理学】\nCCB<=5 【法律】\nCCB<=1 【薬学】\nCCB<=20 【歴史】\n1d3+11D6 【ダメージ判定】\n1d4+11D6 【ダメージ判定】\n1d6+11D6 【ダメージ判定】\nCCB<={STR}*5 【STR × 5】\nCCB<={CON}*5 【CON × 5】\nCCB<={POW}*5 【POW × 5】\nCCB<={DEX}*5 【DEX × 5】\nCCB<={APP}*5 【APP × 5】\nCCB<={SIZ}*5 【SIZ × 5】\nCCB<={INT}*5 【INT × 5】\nCCB<={EDU}*5 【EDU × 5】\n",
+        "status":
+        [
+            {
+                "label":"HP",
+                "value":500,
+                "max":500
+            },{
+                "label":"MP",
+                "value":70,
+                "max":70
+            },{
+                "label":"SAN",
+                "value":350,
+                "max":350
+            }
+        ],
+        "params":
+        [
+            {
+                "label":"STR",
+                "value":"72"
+            },{
+                "label":"CON",
+                "value":"170"
+            },{
+                "label":"POW",
+                "value":"70"
+            },{
+                "label":"DEX",
+                "value":"28"
+            },{
+                "label":"APP",
+                "value":"17"
+            },{
+                "label":"SIZ",
+                "value":"120"
+            },{
+                "label":"INT",
+                "value":"21"
+            },{
+                "label":"EDU",
+                "value":"21"
+            }
+        ],
+        "color":"#2e3360"
+        }
+}
