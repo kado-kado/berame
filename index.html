@@ -85,8 +85,8 @@
                         <nav>
                             <ul>
                                 <li><h3>STR: 12</h3></li>
-                                <li><h3>CON: 13</h3></li>
-                                <li><h3>POW: 12</h3></li>
+                                <li><h3>CON: 85</h3></li>
+                                <li><h3>POW: 78</h3></li>
                                 <li><h3>DEX: 11</h3></li>
                                 <li><h3>APP: 9</h3></li>
                                 <li><h3>SIZ: 15</h3></li>
@@ -94,16 +94,16 @@
                                 <li><h3>EDU: 20</h3></li>
                             </ul>
                             <ul>
-                                <li><h3>HP :14</h3></li>
-                                <li><h3>MP: 12</h3></li>
-                                <li><h3>SAN: 94</h3></li>
-                                <li><h3>不定: 75</h3></li>
+                                <li><h3>HP :50</h3></li>
+                                <li><h3>MP: 78</h3></li>
+                                <li><h3>SAN: 99</h3></li>
+                                <li><h3>不定: 79</h3></li>
                                 <li><h3>IDE: 70</h3></li>
-                                <li><h3>幸運: 60</h3></li>
+                                <li><h3>幸運: 390</h3></li>
                                 <li><h3>知識: 100</h3></li>
                                 <li><h3>DB: +1d4</h3></li>
-                                <li><h3>耐久力: 14</h3></li>
-                                <li><h3>ATP: 34000</h3></li>
+                                <li><h3>耐久力: 50</h3></li>
+                                <li><h3>ATP: 259,000</h3></li>
                             </ul>
                         </nav>
                     </div>
@@ -136,8 +136,8 @@
                         <nav>
                             <ul>
                                 <li><h3>STR: 12</h3></li>
-                                <li><h3>CON: 13</h3></li>
-                                <li><h3>POW: 12</h3></li>
+                                <li><h3>CON: 125</h3></li>
+                                <li><h3>POW: 116</h3></li>
                                 <li><h3>DEX: 15</h3></li>
                                 <li><h3>APP: 19</h3></li>
                                 <li><h3>SIZ: 11</h3></li>
@@ -145,16 +145,16 @@
                                 <li><h3>EDU: 20</h3></li>
                             </ul>
                             <ul>
-                                <li><h3>HP :14</h3></li>
-                                <li><h3>MP: 12</h3></li>
-                                <li><h3>SAN: 94</h3></li>
-                                <li><h3>不定: 75</h3></li>
+                                <li><h3>HP :68</h3></li>
+                                <li><h3>MP: 116</h3></li>
+                                <li><h3>SAN: 99</h3></li>
+                                <li><h3>不定: 79</h3></li>
                                 <li><h3>IDE: 70</h3></li>
-                                <li><h3>幸運: 60</h3></li>
+                                <li><h3>幸運: 580</h3></li>
                                 <li><h3>知識: 100</h3></li>
                                 <li><h3>DB: 0</h3></li>
-                                <li><h3>耐久力: 12</h3></li>
-                                <li><h3>ATP: 34000</h3></li>
+                                <li><h3>耐久力: 68</h3></li>
+                                <li><h3>ATP: 259,000</h3></li>
                             </ul>
                         </nav>
                     </div>
@@ -169,7 +169,7 @@
                 <div class="card" data-card-action="toggle" data-toggle-target="TRberame" onclick="handleCardAction(this, event)">
                     <h1>目星を振られた場合</h1>
                     <div id="TRberame">
-                        <p>情報公開に自動成功し、SAN値チェック 1d6/1d20。</p>
+                        <p>情報公開に自動成功し、SAN値チェック 1d12/2d20。</p>
                     </div>
                 </div>
                 <div class="card" data-card-action="toggle" data-toggle-target="CHberame" onclick="handleCardAction(this, event)">
@@ -465,6 +465,18 @@
                     <tr><td>nは1〜10。1ターンに1回攻撃。ターン開始時に電気銃リロード判定を行い、失敗時はダメージ半減。クリティカル・ファンブルなし。</td></tr>
                 </tbody>
 			</table>
+             <table>
+                <thead><tr><th>名称</th><th>成功率</th><th>ダメージ</th></tr></thead>
+            <tbody>
+                    <tr><td>べらめのキック装置</td><td>95%</td><td>消費MPu(50+出目,上限100)[2]</td></tr>
+                </tbody>
+            </table>
+            <table>
+                <thead><tr><th>説明</th></tr></thead>
+                <tbody>
+                    <tr><td>ラグニから貰った。</td></tr>
+                </tbody>
+			</table>
                     </div>
                 </div>
                 <div class="card" data-card-action="toggle" data-toggle-target="moneyDetails" onclick="handleCardAction(this, event)">
@@ -692,7 +704,7 @@
                         <table>
                             <thead><tr><th>名称</th><th>個数</th></tr></thead>
                             <tbody>
-                                <tr><td>特盛り アザトーストパン（ヨーグルトソース付き）</td><td>450</td></tr>
+                                <tr><td>特盛り アザトーストパン（ヨーグルトソース付き）</td><td>452</td></tr>
                             </tbody>
                         </table>
                         <table>
@@ -764,7 +776,7 @@
                         <table>
                             <thead><tr><th>名称</th><th>個数</th></tr></thead>
                             <tbody>
-                                <tr><td>特盛り チャグナー象鼻のパイ包み</td><td>2</td></tr>
+                                <tr><td>特盛り チャグナー象鼻のパイ包み</td><td>1669</td></tr>
                             </tbody>
                         </table>
                         <table>
@@ -1052,7 +1064,7 @@
                         <table>
                             <thead><tr><th>名称</th><th>個数</th></tr></thead>
                             <tbody>
-                                <tr><td>特盛り ヒトの丸焼き</td><td>20</td></tr>
+                                <tr><td>特盛り ヒトの丸焼き</td><td>27</td></tr>
                             </tbody>
                         </table>
                         <table>
@@ -1422,11 +1434,13 @@
                                 <tr><td>間もなく最終電車が出発します。</td><td>2</td></tr>
                                 <tr><td>稲荷の村</td><td>1</td></tr>
                                 <tr><td>在らずの人々</td><td>6</td></tr>
-								<tr><td>ガスト</td><td>-</td></tr>
+                                <tr><td>クトーニアン、殺したくない?</td><td>-</td></tr>
+                                <tr><td>ガスト</td><td>-</td></tr>
 								<tr><td>花守りの呪</td><td>-</td></tr>
                                 <tr><td>藍に蝕まれる水槽の中で</td><td>-</td></tr>
                                 <tr><td>藍に還る記憶の欠片</td><td>-</td></tr>
-								<tr><td>ゴネろ！！！</td><td>1</td></tr>
+								<tr><td>ゴネろ！！！</td><td>-</td></tr>
+                                <tr><td>ガスト(2回目)</td><td>-</td></tr>
                             </tbody>
                         </table>
                     </div>
@@ -1441,7 +1455,7 @@
                                 <tr><td>ノーデンス</td><td>21</td><td>20</td></tr>
                                 <tr><td>ショゴス</td><td>19</td><td>19</td></tr>
                                 <tr><td>ゴルゴロス</td><td>1</td><td>-</td></tr>
-                                <tr><td>アザトース</td><td>1354</td><td>1353</td></tr>
+                                <tr><td>アザトース</td><td>1359</td><td>1358</td></tr>
                                 <tr><td>シュブ=ニグラス</td><td>3</td><td>3</td></tr>
                                 <tr><td>稲荷</td><td>1</td><td>1</td></tr>
                                 <tr><td>風の落し子</td><td>1</td><td>1</td></tr>
@@ -1453,7 +1467,7 @@
 								<tr><td>星の精</td><td>2</td><td>2</td></tr>
 								<tr><td>シャンタク</td><td>1</td><td>1</td></tr>
 								<tr><td>ノフ＝ケー</td><td>1</td><td>1</td></tr>
-								<tr><td>チャウグナー＝フォーン</td><td>1</td><td>1</td></tr>
+								<tr><td>チャウグナー＝フォーン</td><td>1668</td><td>1668</td></tr>
 								<tr><td>ハスター</td><td>1</td><td>1</td></tr>
 								<tr><td>ガタノソア</td><td>1</td><td>1</td></tr>
 								<tr><td>氏ヌ世(サテュロス)</td><td>1</td><td>1</td></tr>
@@ -1486,6 +1500,7 @@
                                 <tr><td>藍に蝕まれる水槽の中で</td><td>クリア</td><td>澄んだ藍色の花</td></tr>
                                 <tr><td>藍に還る記憶の欠片</td><td>クリア</td><td>水底のガラス片</td></tr>
 								<tr><td>ゴネろ！！！</td><td>クリア</td><td>-</td></tr>
+                                <tr><td>ガスト(2回目)</td><td>クリア</td><td>SAN値回復、テイクアウト</td></tr>
                             </tbody>
                         </table>
                     </div>
